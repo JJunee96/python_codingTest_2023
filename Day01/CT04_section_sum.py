@@ -10,6 +10,7 @@ temp = 0
 for i in numbers:
     temp = temp + i   # temp 5
     sums.append(temp)
+
 for i in range(M):
     x, y = tuple(map(int, input().split()))
-    print(sums[y], - sums[x - 1]) #
+    print(sums[y], - sums[x - 1])   
